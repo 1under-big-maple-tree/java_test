@@ -2,7 +2,6 @@ package Number;
 
 public class Student {
     private String name;
-    private int age;
 
     public String getName() {
         return name;
@@ -12,22 +11,24 @@ public class Student {
         this.name = name;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
-    public Student(String name, int age) {
+    private String age;
+
+    public Student(String name, String age) {
         this.name = name;
         this.age = age;
     }
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "李家豪{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
