@@ -29,7 +29,12 @@ public class Char {
                 }
         }
 //        System.out.println(str.toCharArray());    a=97,A=65,z=123
-
+String f = "maple";
+ String h = "maple0123";
+        System.out.println(f.compareTo(h));
+        String aa = new String("maple123");
+        String bb = new String("maple123456");
+        System.out.println(aa.compareTo(bb));
     }
 
 
