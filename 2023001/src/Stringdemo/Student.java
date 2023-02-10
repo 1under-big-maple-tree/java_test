@@ -58,12 +58,16 @@ public class Student {
     public String sex;
     public String phoneNumber;
 
-    public Student(String name, String garde, String school, String age, String sex, String phoneNumber) {
-        this.name = name;
-        this.garde = garde;
-        this.school = school;
-        this.age = age;
-        this.sex = sex;
-        this.phoneNumber = phoneNumber;
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", garde='" + garde + '\'' +
+                ", school='" + school + '\'' +
+                ", age='" + age + '\'' +
+                ", sex='" + sex + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
     }
 }
+
